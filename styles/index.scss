@@ -1,0 +1,74 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url('data:image/svg+xml;utf8,<svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="%230989B4" stop-opacity="0" offset="0%"/><stop stop-color="%2353FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(%23a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5"/></svg>'),
+                    url('data:image/svg+xml;utf8,<svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="%230989B4" stop-opacity="0" offset="0%"/><stop stop-color="%2353FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(%23a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25"/></svg>');
+  background-position: -100% 150%,
+                       150% -100%;
+  background-repeat: no-repeat;
+  .card {
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 0 30px -10px rgba(0,0,0,.4);
+    header {
+      height: 140px;
+      width: 350px;
+      background-image: url('data:image/svg+xml;utf8,<svg width="350" height="140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="c"><stop stop-color="%230989B4" stop-opacity="0" offset="0%"/><stop stop-color="%2353FFEE" offset="99.94%"/></linearGradient><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="d"><stop stop-color="%230989B4" stop-opacity="0" offset="0%"/><stop stop-color="%2353FFEE" offset="99.94%"/></linearGradient><path id="a" d="M0 0h350v140H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="%23fff"><use xlink:href="%23a"/></mask><use fill="%2341CBD3" xlink:href="%23a"/><g mask="url(%23b)" opacity=".5"><g transform="translate(-11 -4)"><ellipse fill="url(%23c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(-11 91.63)"><ellipse fill="url(%23c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(-11 43.815)"><ellipse fill="url(%23c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 18.77)"><ellipse fill="url(%23c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 114.4)"><ellipse fill="url(%23c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 66.585)"><ellipse fill="url(%23c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(%23d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(%23c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g></g></g></svg>');
+      border-radius: 12px 12px 0 0;
+    }
+    main {
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      align-content: center;
+      padding-bottom: 1em;
+      .profile {
+        border-radius: 50%;
+        border: 4px solid #fff;
+      }
+    }
+    footer {
+      border-top: 1px solid rgb(245,245,245);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        padding: .5em 0 1.25em 0;
+        .muted {
+          font-size: .75em;
+        }
+      }
+    }
+  }
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
+}
+
+.title {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin: .5em;
+}
+.subtitle {
+  margin: .25em;
+}
+.muted {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
